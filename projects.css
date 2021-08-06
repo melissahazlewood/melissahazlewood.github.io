@@ -1,0 +1,11 @@
+#Projects img {
+	filter: grayscale(100%);
+}
+
+#Projects img:hover {
+	filter: grayscale(0);
+}
+
+#Projects .block-diagram:hover {
+	filter: invert(20%) sepia(7%) saturate(561%) hue-rotate(92deg) brightness(90%) contrast(84%);
+}
