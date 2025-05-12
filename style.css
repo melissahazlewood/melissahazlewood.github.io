@@ -20,3 +20,7 @@
 	padding: 1em;
 	margin-top: 1.25em
 }
+
+.navbar-brand {
+    font-family: 'Source Code Pro', monospace;
+}
