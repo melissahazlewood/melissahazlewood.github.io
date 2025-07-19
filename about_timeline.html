@@ -118,8 +118,13 @@
         }
 
         @media (max-width: 768px) {
+            .timeline-container {
+                padding: 1em 1em;
+                height: auto;
+            }
+
             .timeline-list {
-                gap: 1em;
+                gap: 2em;
             }
 
             .timeline-item {
@@ -127,18 +132,16 @@
                 align-items: flex-start;
                 min-height: 80px;
             }
-
+            
             .timeline-event {
                 max-width: 100%;
                 margin: 0.5em 0;
                 text-align: left !important;
+                border: 2px solid #627854;
             }
 
-            .timeline-year {
-                position: static;
-                margin: 0.5em 0;
-                left: auto;
-                transform: none;
+            .timeline-item-bubble {
+                display: none;
             }
         }
     </style>
