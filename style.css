@@ -30,7 +30,7 @@
 	position: relative;
 	max-width: 900px;
 	margin: 2em auto;
-	padding: 2em 0;
+	padding: 2em 1.25em 2em 2em; /* padding adjusted to give scrollbar space*/
 	overflow-y: auto;
 	height: 80vh;
 	background: transparent;
