@@ -133,7 +133,7 @@
 	flex-direction: row;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
 	.timeline-container {
 		padding: 1em 1em;
 		height: auto;
